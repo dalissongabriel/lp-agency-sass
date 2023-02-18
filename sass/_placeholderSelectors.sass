@@ -1,0 +1,23 @@
+@import 'variables'
+
+%title-text-shadow
+  text-shadow: 3px 2px $black
+
+%section-title
+  font-size: 3rem
+  margin-top: 2rem
+  text-align: center
+
+%center-bg-img
+  background-size: cover
+  background-position: center
+
+%card-hover
+  .job-card-title, .job-card-cover, .job-card-description
+    opacity: 0
+    @include mobile
+      opacity: 1
+
+  &:hover
+    .job-card-title, .job-card-cover, .job-card-description
+      opacity: 1
