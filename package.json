@@ -1,0 +1,23 @@
+{
+  "name": "lp-agency-sass",
+  "version": "1.0.0",
+  "description": "LP for agency build with sass",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server ./public",
+    "start": "sass ./src/sass/styles.sass:./public/css/styles.css --watch & npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalissongabriel/lp-agency-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalissongabriel/lp-agency-sass/issues"
+  },
+  "homepage": "https://github.com/dalissongabriel/lp-agency-sass#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
