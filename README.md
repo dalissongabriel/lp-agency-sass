@@ -1,10 +1,11 @@
-# Landing Page build with Sass
+# Landing page build with Sass
 
 - Mixins
 - Placeholder Selectors
 - MediaQueries
 - Variables
 - Nesting
+- Parent Selector (&)
 
 ## Scripts
 
